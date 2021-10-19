@@ -52,5 +52,9 @@ public class History {
     public void setReturnBook(Date returnBook) {
         this.returnBook = returnBook;
     }
+
+    public void getReturnBook(Date time) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
