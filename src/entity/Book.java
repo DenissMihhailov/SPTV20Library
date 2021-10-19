@@ -5,6 +5,8 @@
  */
 package entity;
 
+import java.util.Arrays;
+
 /**
  *
  * @author Deniss
@@ -36,6 +38,11 @@ public class Book {
 
     public void setReleaseYear(int releaseYear) {
         this.releaseYear = releaseYear;
+    }
+
+    @Override
+    public String toString() {
+        return "Книга{" + "Название Книги= " + bookName + ", Год издания= " + releaseYear + ", Авторы= " + Arrays.toString(authors) + '}';
     }
     
     

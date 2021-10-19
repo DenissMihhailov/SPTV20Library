@@ -37,4 +37,10 @@ public class User {
     public void setUserTelefonNumber(String userTelefonNumber) {
         this.userTelefonNumber = userTelefonNumber;
     }
+
+    @Override
+    public String toString() {
+        return "Пользователь(" + "Имя= " + userFirstName + ", Фамилия= " + userLastName + ", Номер телефона= " + userTelefonNumber + ')';
+    }
+    
 }

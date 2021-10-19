@@ -37,4 +37,10 @@ public class Author {
     public void setBirthYear(int birthYear) {
         this.birthYear = birthYear;
     }
+
+    @Override
+    public String toString() {
+        return "Автор{" + "Имя= " + firstName + ", Фамилия= " + lastName + ", Год рождения= " + birthYear + '}';
+    }
+    
 }
